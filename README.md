@@ -20,7 +20,7 @@ IPL Matches 2008-2020.xlsx: Contains data of the venue, player of the match, tos
 ## *Instructions:*
 
 Ensure that you have access MS Excel or Google Sheets to go through the data and analyse using Formulas and Functions.
-Kindly refer the Text document for the questions and their appropriate answers.
+Kindly refer the <a href="https://karthik-raghavan.github.io/Exploring-IPL-Dataset-in-MS-Excel/">Exploring-IPL-Dataset-in-MS-Excel</a> for the questions and their appropriate answers.
 
 
 Feel free to reach out if you have any questions or need further assistance!
