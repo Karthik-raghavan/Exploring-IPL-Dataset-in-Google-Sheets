@@ -8,6 +8,7 @@
 * Pivot Table and Charts: Get the Pivot Table to summarize the data for easier understanding.
 * Automation: Perform Automation using functions so users can get the details that are requested without having the need too look at the data.
 * Sorting and Filtering: Filtered and Sorted Data based on requirements for chart.
+* Publish: Publishing Charts to display the information to the viewers in a HTML page.
 
 ## *Project Overview:*
 
