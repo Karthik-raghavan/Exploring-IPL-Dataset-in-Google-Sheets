@@ -1,3 +1,45 @@
+body {
+    background-color: #E4C59E;
+}
+
+
+
+div {
+    margin-bottom: 10px;
+    padding: 4px 8px;
+  }
+
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+  }
+
 #heading {
-    text-align: centers;
+    color: #322C2B;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.column-heading {
+    color: #803D3B;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+iframe {
+    align-content: center;
+}
+
+.gs-image {
+    text-align: center;
 }

@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exploring IPL Dataset using MS Excel</title>
-    <link rel="stylesheet" href=".\style\index.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
-    </style>
+    <title>Exploring IPL Dataset using Google Sheets</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@500&display=swap" rel="stylesheet">
+
+    
 </head>
 <body>
-    <h1 id="heading">Exploring IPL Dataset using MS Excel</h1>
+    <h1 id="heading">Exploring IPL Dataset using Google Sheets</h1>
 
-    <h2 id="column-heading">Exploration on City</h2>
-    <iframe width="746" height="371" seamless frameborder="1" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=312223136&amp;format=image"></iframe>
+    <h2 class="column-heading">Exploration on City</h2>
     
+    <div class="gs-image">
+        <iframe width="746" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=312223136&amp;format=image"></iframe>
+    </div>
+
     <p class="analysis-findings">
         <ul>
             <li>The games were held in <b>32</b> cities between the year 2008 - 2020.</li>
@@ -25,10 +30,14 @@
         </ul>
     </p>
 
-    <h2 id="column-heading">Exploration on Years</h2>
-    <iframe width="294" height="132" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=1893791650&amp;format=interactive"></iframe>
+    <h2 class="column-heading">Exploration on Years</h2>
+    <div class="gs-image">
+    <iframe class="gs-image" width="294" height="132" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=1893791650&amp;format=interactive"></iframe>
+    </div>
     <br>
-    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=266074130&amp;format=interactive"></iframe>
+    <div class="gs-image">
+    <iframe class="gs-image" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=266074130&amp;format=interactive"></iframe>
+    </div>
 
     <p class="analysis-findings">
         <ul>
@@ -38,7 +47,28 @@
         </ul>
     </p>
 
-    
+    <h2 class="column-heading">Exploration on Player of the Match</h2>
+    <div class="gs-image">
+        <iframe width="747" height="459" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=1836727786&amp;format=interactive"></iframe>
+    </div>
+
+    <div class="analysis-findings">
+        <ul>
+            <li><b>234</b> players were recognized as the player of the match.</li>
+            <li>No Players received player of the match award in all the years.</li>
+            <li>We could see some players received the award continously every year without any gap from the year they started receiving.</li>
+                <li><b>RG Sharma</b> received from <b>2009-2020</b> except <b>2008</b>.</li>
+                <li><b>SK Raina</b> received from <b>2008-2017</b> except from <b>2018-2020</b>.</li>
+                <li><b>MS Dhoni</b> received from <b>2008-2019</b> except 2020.</li>
+        </ul>
+    </div>
+
+    <div class="info">
+        <p><strong>Info!</strong> Only data for 2008 is added for the player of the match.</p>
+      </div>
+
+    <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_danger-->
+
 
 </body>
 </html>
