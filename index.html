@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@500&display=swap" rel="stylesheet">
 
-    
+    <!--https://colorhunt.co/palette/e4c59eaf8260803d3b322c2b-->
 </head>
 <body>
     <h1 id="heading">Exploring IPL Dataset using Google Sheets</h1>
@@ -69,6 +69,56 @@
 
     <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_danger-->
 
+    <h2 class="column-heading">Exploration on Toss Winner</h2>
+    <div class="gs-image">
+        <iframe width="665" height="462" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=1034848103&amp;format=interactive"></iframe>
+    </div>
 
-</body>
+    <div class="analysis-findings">
+        <ul>
+            <li><b>Mumbai Indians, Kolkata Knight Riders, Chennai Super Kings, Kings XI Punjab, Rajastan Royals</b> all have above <em>10%</em> of the winning percentage.</li>
+            <li>Based on what we know, we need to compare with the Winning Percentage to determine if toss winning helps us with Winning the matches.</li>
+        </ul>
+
+    <div class="info">
+        <p><strong>Info!</strong> We have considered the overall percentage between the years for the toss winners.</p>
+        </div>
+
+    <h2 class="column-heading">Exploration on Match Winners</h2>
+    <div class="gs-image">
+        <iframe width="1183" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=163871510&amp;format=image"></iframe>
+    </div>
+
+    <div class="analysis-findings">
+        <ul>
+            <li><b>Mumbai Indians, Kolkata Knight Riders, Chennai Super Kings, Kings XI Punjab, Rajastan Royals</b> all had a higher count of wins.</li>
+            <li>There are also 4 NA in the count, which could mean both the teams did not win.</li>
+            <li>We need to further invetigate what percentage of winning the toss contributes to winning the match.</li>
+        </ul>
+
+    <h2 class="column-heading">Connection between Toss and Match winning</h2>
+    <div class="gs-image">
+        <iframe width="259" height="135" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=623720713&amp;format=interactive"></iframe>
+    </div>
+
+    <div class="analysis-findings">
+        <ul>
+            <li>We could see that the overall percentage is <b>51.23%</b> which concludes that the toss does not contribute much to winning.</li>
+        </ul>
+
+    
+    <div class="info">
+        <p><strong>Info!</strong> We have taken the year 2020 for investigating .</p>
+        </div>
+
+    <div class="gs-image">
+        <iframe width="259" height="135" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNw8seXoHx-rSYiYNzjxVt1GytT0D96iG8aXoSH0_fnc4nYqrpObNG1rh_m8_6Q/pubchart?oid=924202025&amp;format=interactive"></iframe>    </div>
+
+    <div class="analysis-findings">
+        <ul>
+            <li>We could see that the percentage in <b>2020 is 41.67%</b> which is less than half so mostly results in loss.</li>
+        </ul>
+
+
+    </body>
 </html>
