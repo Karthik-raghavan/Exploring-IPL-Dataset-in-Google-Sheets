@@ -1,4 +1,4 @@
-# **Exploring IPL Dataset in MS Excel**
+# **Exploring IPL Dataset in Google Sheets**
 
 ## *Skills Used:*
 
@@ -7,6 +7,7 @@
 * Aggregate Functions: Used for summarizing data, calculating totals, averages, counts, etc., essential for deriving insights from large datasets. 
 * Pivot Table and Charts: Get the Pivot Table to summarize the data for easier understanding.
 * Automation: Perform Automation using functions so users can get the details that are requested without having the need too look at the data.
+* Sorting and Filtering: Filtered and Sorted Data based on requirements for chart.
 
 ## *Project Overview:*
 
