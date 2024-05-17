@@ -1,5 +1,5 @@
 body {
-    background-color: #E4C59E;
+    background-color: #151515;
 }
 
 
@@ -12,26 +12,27 @@ div {
 .info {
     background-color: #e7f3fe;
     border-left: 6px solid #2196F3;
+    color: #151515;
   }
 
 #heading {
-    color: #322C2B;
+    color: #C73659;
     text-align: center;
-    font-size: 50px;
-    font-family: "Briem Hand", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
+    font-size: 60px;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
     font-style: normal;
 }
 
 .column-heading {
-    color: #803D3B;
+    color: #A91D3A;
     text-decoration-line: underline ;
     text-align: center;
-    font-size: 35px;
-    font-family: "Briem Hand", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
+    font-size: 40px;
+    font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
     font-style: normal;
 }
 
@@ -40,24 +41,26 @@ div {
 }
 
 .project-goal {
-    font-size: larger;
-    font-family: "Briem Hand", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+    color: #EEEEEE;
+    font-size: 25px;
 }
 
 .analysis-findings {
-    font-size: large;
-    font-family: "Briem Hand", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+  color: #EEEEEE;
+  font-size: 25px;
+
 }
 
 .success {
     background-color: #ddffdd;
     border-left: 6px solid #04AA6D;
+    color: #151515;
   } 
 
   .contactcards {
