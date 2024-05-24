@@ -12,15 +12,19 @@ div {
 .info {
     background-color: #e7f3fe;
     border-left: 6px solid #2196F3;
-  }
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: #803D3B;
+    font-size: 25px;
+}
 
 #heading {
     color: #322C2B;
     text-align: center;
-    font-size: 50px;
-    font-family: "Briem Hand", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
+    font-size: 60px;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -28,11 +32,10 @@ div {
     color: #803D3B;
     text-decoration-line: underline ;
     text-align: center;
-    font-size: 35px;
-    font-family: "Briem Hand", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+    font-size: 40px;
+    font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .gs-image {
@@ -40,26 +43,32 @@ div {
 }
 
 .project-goal {
-    font-size: larger;
-    font-family: "Briem Hand", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
     font-style: normal;
+      color: #803D3B;
+      font-size: 25px;
 }
 
 .analysis-findings {
-    font-size: large;
-    font-family: "Briem Hand", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
     font-style: normal;
+    color: #803D3B;
+    font-size: 25px;
 }
 
 .success {
     background-color: #ddffdd;
     border-left: 6px solid #04AA6D;
+    color: #151515;
   } 
 
   .contactcards {
     text-align: center;
+  }
+
+  a {
+    
+    text-decoration: none;
   }
